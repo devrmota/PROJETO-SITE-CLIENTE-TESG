@@ -1,0 +1,274 @@
+/* /* Media query para tablets */
+@media (max-width: 768px) {
+  header {
+    padding: 10px;
+    text-align: center;
+  }
+
+  header h1 {
+    margin: 0px 0px 0px 117px;
+    font-size: 30px;
+    /* Reduzido para melhorar a aparência em tablets */
+    text-align: left;
+  }
+
+  #sub-title {
+    margin: 0px 0px 0px 122px;
+    font-size: 16px;
+    /* Tamanho reduzido para subtítulo */
+    text-align: left;
+  }
+
+  .nav-bar {
+    display: flex;
+    gap: 20px;
+    padding: 0px 20px;
+    background-color: #1e1e1e;
+    overflow: visible;
+    flex-wrap: wrap;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #dfdfdf;
+  }
+
+  .nav-bar a {
+    color: #dfdfdf;
+    padding: 14px 5px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+  }
+
+  .nav-bar a:hover {
+    background-color: #3ead00;
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1e1e1e;
+  z-index: 9999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #3ead00;
+  /* Efeito de hover no submenu */
+}
+
+/* .logo-container img { */
+  max-width: 250px;
+  /* Reduz o tamanho da logo */
+}
+
+.services h2 {
+  font-size: 30px;
+  /* Reduz o tamanho do h2 */
+  margin-bottom: 10px;
+}
+
+.services li strong {
+  margin: 0 100px;
+  padding: 20px;
+  font-size: 28px;
+  /* Reduz o tamanho do strong para melhor harmonização */
+}
+
+.services li p {
+  margin: 0px 50px;
+  font-size: 18px;
+  /* Reduzido para harmonizar com o layout de tablet */
+}
+
+.services li ul {
+  padding-left: 100px;
+  /* Ajusta o espaçamento da lista */
+}
+
+.contact-us h2 {
+  font-size: 30px;
+  /* Reduz o tamanho do h2 na seção de contato */
+}
+
+.contact-us p,
+.contact-us ul {
+  font-size: 25px;
+  /* Ajusta o tamanho do texto na seção de contato */
+}
+
+
+
+ATUALIZADO
+
+/* /* Media query para tablets */
+@media (max-width: 320px) {
+
+  .whatsapp-link {
+    display: none !important;
+    /* Oculta apenas o link do WhatsApp */
+  }
+
+  header {
+    max-width: 100%;
+    padding: 10px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 30px;
+    text-align: left;
+}
+
+.container {
+    max-width: 100%;
+    margin: auto;
+    padding: 0 10px; /* Adicione um padding para evitar que o texto toque nas bordas */
+}
+
+#sub-title {
+    margin: 0;
+    font-size: 10px;
+    text-align: left;
+    word-wrap: break-word; /* Quebra palavras longas */
+    overflow-wrap: break-word; /* Alternativa moderna */
+    white-space: normal; /* Permite quebra de linha normal */
+    width: 100%; /* Ocupar toda a largura do contêiner */
+    box-sizing: border-box; /* Inclui padding e borda na largura total */
+}
+
+
+  .nav-bar {
+    display: flex;
+    gap: 10px;
+    padding: 0px 5px;
+    background-color: #1e1e1e;
+    overflow: visible;
+    flex-wrap: wrap;
+    justify-content: left;
+    position: relative;
+    width: 100%;
+    border-bottom: 2px solid #dfdfdf;
+  }
+
+  .nav-bar a {
+    color: #dfdfdf;
+    padding: 1px 2px;
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+  }
+
+  .nav-bar a:hover {
+    background-color: #3ead00;
+  }
+}
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #1e1e1e;
+  z-index: 9999;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown-content a {
+  display: block;
+  padding: 10px;
+  color: #dfdfdf;
+  text-decoration: none;
+}
+
+.dropdown-content a:hover {
+  background-color: #3ead00;
+  /* Efeito de hover no submenu */
+}
+
+.logo-container img {
+  max-width: 150px;
+  /* Reduz o tamanho da logo */
+}
+
+h2 {
+  margin-top: 5px;
+  font-size: 10px;
+  text-align: center;
+}
+
+#sobre {
+  padding:0 ;
+}
+
+.services h2 {
+  font-size: 10px;
+  /* Reduz o tamanho do h2 */
+  margin-bottom: 10px;
+}
+
+.services li strong {
+  margin: 0;
+  padding: 10px;
+  font-size: 20px;
+  /* Reduz o tamanho do strong para melhor harmonização */
+}
+
+.services li p {
+  margin: 0px;
+  font-size: 10px;
+  /* Reduzido para harmonizar com o layout de tablet */
+}
+
+.services li{
+  font-size: 10px;
+  margin: 0;
+  padding: 2px;
+}
+.services li ul {
+  padding-left: 80px;
+  /* Ajusta o espaçamento da lista */
+}
+
+.contact-us h2 {
+  font-size: 30px;
+  /* Reduz o tamanho do h2 na seção de contato */
+}
+
+.contact-us p,
+.contact-us ul {
+  font-size: 15px;
+  /* Ajusta o tamanho do texto na seção de contato */
+}
+
+footer {
+  font-size: ;
+}
