@@ -89,11 +89,11 @@ header h1 {
 
 .whatsapp-item:hover {
   background-color: #3ead00;
-
 }
 
-#decoration {
-  display: none;
+.whatsapp-item {
+  border: 0;
+  padding: 0;
 }
 
 .dropdown {
@@ -297,6 +297,10 @@ footer p {
     margin: 30px;
   }
 
+  .services li strong {
+    margin: 20px;
+  }
+
   .services li p {
     margin: 0px 50px;
     padding: 10px;
@@ -376,7 +380,7 @@ footer p {
   }
 
   .whatsapp-item a {
-    padding: 0px;
+    padding: 5px;
   }
 
 
@@ -395,6 +399,7 @@ footer p {
 
   .services li strong {
     font-size: 25px;
+    margin: 20px;
   }
 
   .services li ul {
@@ -458,111 +463,111 @@ footer p {
 }
 
 
-/* @media (max-width: 425px) { */
-header h1 {
-  font-size: 35px;
-  margin: 0 auto;
+@media (max-width: 425px) {
+  header h1 {
+    font-size: 35px;
+    margin: 0 auto;
+  }
+
+  #sub-title {
+    font-size: 14px;
+    margin: 0 auto;
+  }
+
+  .nav-bar {
+    gap: 7px;
+    font-size: 11px;
+    padding: 8px;
+  }
+
+  .nav-bar a {
+    padding: 1px 5px;
+    border: 1px solid #dfdfdf;
+  }
+
+  .whatsapp-item {
+    color: #dfdfdf;
+    font-weight: bold;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    padding: 0;
+  }
+
+  .about {
+    padding: 10px;
+  }
+
+  .logo-container img {
+    max-width: 200px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-top: 0;
+  }
+
+  #sobre {
+    font-size: 14px;
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .services {
+    padding: 30px;
+  }
+
+  .services h2 {
+    font-size: 24px;
+  }
+
+  .services li strong {
+    font-size: 24px;
+    margin: 0;
+    padding: 20px 0px;
+    text-align: left;
+  }
+
+  .services li p {
+    font-size: 12px;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  .services li ul {
+    padding: 30px;
+    margin: 0;
+  }
+
+  .services li {
+    font-size: 16px;
+    padding: 0;
+    margin: 0;
+  }
+
+  .contact-us #description {
+    margin: 0;
+    padding: 10px;
+    font-size: 14px;
+
+  }
+
+  .contact-us,
+  .contact-us ul {
+    margin: 0;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+
+  }
+
+  footer p {
+    font-size: 10px;
+  }
 }
 
-#sub-title {
-  font-size: 14px;
-  margin: 0 auto;
-}
-
-.nav-bar {
-  gap: 7px;
-  font-size: 11px;
-  padding: 8px;
-}
-
-.nav-bar a {
-  padding: 1px 5px;
-  border: 1px solid #dfdfdf;
-}
-
-.whatsapp-item {
-  color: #dfdfdf;
-  font-weight: bold;
-  display: flex;
-  text-align: center;
-  align-items: center;
-  padding: 1px 5px;
-}
-
-.about {
-  padding: 10px;
-}
-
-.logo-container img {
-  max-width: 200px;
-}
-
-h2 {
-  font-size: 16px;
-  margin-top: 0;
-}
-
-#sobre {
-  font-size: 14px;
-  margin: 0px;
-  padding: 0px;
-}
-
-.services {
-  padding: 30px;
-}
-
-.services h2 {
-  font-size: 24px;
-}
-
-.services li strong {
-  font-size: 24px;
-  margin: 0;
-  padding: 20px 0px;
-  text-align: left;
-}
-
-.services li p {
-  font-size: 12px;
-  text-align: center;
-  margin: 0;
-  padding: 0;
-}
-
-.services li ul {
-  padding: 30px;
-  margin: 0;
-}
-
-.services li {
-  font-size: 16px;
-  padding: 0;
-  margin: 0;
-}
-
-.contact-us #description {
-  margin: 0;
-  padding: 10px;
-  font-size: 14px;
-
-}
-
-.contact-us,
-.contact-us ul {
-  margin: 0;
-  padding: 10px;
-  font-size: 20px;
-  text-align: center;
-
-}
-
-footer p {
-  font-size: 10px;
-}
-}
-
-@media (min-width: 375px) and (max-width:425px) {
+@media (max-width: 375px) {
   header h1 {
     font-size: 24px;
     margin: 0 auto;
@@ -574,7 +579,7 @@ footer p {
   }
 
   .nav-bar {
-    gap: 7px;
+    gap: 8px;
     font-size: 9px;
     padding: 8px;
   }
@@ -669,8 +674,8 @@ footer p {
   }
 
   .nav-bar {
-    gap: 3px;
-    font-size: 8px;
+    gap: 10px;
+    font-size: 7px;
     padding: 8px;
   }
 
