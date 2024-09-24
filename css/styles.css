@@ -277,7 +277,17 @@ footer p {
 
 /* RESPONSIVE */
 
-@media (min-width: 1024px) {
+@media (max-width: 2560px) {
+  .contact-us #description {
+    display: block;
+    max-width: 100%;
+    padding: 30px;
+    margin: 30px;
+    text-align: center;
+  }
+}
+
+@media (max-width: 1024px) {
   .nav-bar {
     gap: 100px;
     padding: 10px;
@@ -452,18 +462,7 @@ footer p {
   }
 }
 
-@media (min-width: 1024px) and (max-width: 2560px) {
-  .contact-us #description {
-    display: block;
-    max-width: 100%;
-    padding: 30px;
-    margin: 30px;
-    text-align: center;
-  }
-}
-
-
-@media (max-width: 425px) {
+@media (min-width: 376px) and (max-width: 540px){
   header h1 {
     font-size: 35px;
     margin: 0 auto;
@@ -475,11 +474,11 @@ footer p {
   }
 
   .nav-bar {
-    gap: 7px;
-    font-size: 11px;
+    gap: 5px;
+    font-size: 10px;
     padding: 8px;
-  }
-
+    }
+LO
   .nav-bar a {
     padding: 1px 5px;
     border: 1px solid #dfdfdf;
@@ -579,9 +578,13 @@ footer p {
   }
 
   .nav-bar {
-    gap: 8px;
+    gap: 5px;
     font-size: 9px;
     padding: 8px;
+  }
+
+  .whatsapp-item {
+    padding: 0;
   }
 
   .about {
@@ -658,7 +661,7 @@ footer p {
   }
 }
 
-@media (max-width: 320px) {
+@media (min-width: 320px) and (max-width: 375px){
   header {
     padding: 10px;
   }
@@ -674,9 +677,13 @@ footer p {
   }
 
   .nav-bar {
-    gap: 10px;
+    gap: 2px;
     font-size: 7px;
     padding: 8px;
+  }
+
+  .whatsapp-item {
+    padding: 0;
   }
 
 
